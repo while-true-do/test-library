@@ -17,7 +17,8 @@ source "$SCRIPT_PATH/_lib.sh"
 function installAspell() {
   sudo dnf -y install aspell-en ||\
   sudo yum -y install aspell-en ||\
-  sudo apt -y install aspell-en ||\
+  sudo apt-get update ||\
+  sudo apt-get -y install aspell-en ||\
   sudo zypper -n install aspell-en
 
   RETURN=$?

@@ -17,7 +17,8 @@ source "$SCRIPT_PATH/_lib.sh"
 function instShellcheck() {
   sudo dnf -y install ShellCheck ||\
   sudo yum -y install ShellCheck ||\
-  sudo apt -y install shellcheck ||\
+  sudo apt-get update ||\
+  sudo apt-get -y install shellcheck ||\
   sudo zypper -n install ShellCheck
 
   return $?
