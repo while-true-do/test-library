@@ -15,10 +15,10 @@ source "$SCRIPT_PATH/_lib.sh"
 
 # Complex tests
 function instShellcheck() {
-  dnf -y install ShellCheck ||\
-  yum -y install ShellCheck ||\
-  apt -y install shellcheck ||\
-  zypper -n install ShellCheck
+  sudo dnf -y install ShellCheck ||\
+  sudo yum -y install ShellCheck ||\
+  sudo apt -y install shellcheck ||\
+  sudo zypper -n install ShellCheck
 
   return $?
 }

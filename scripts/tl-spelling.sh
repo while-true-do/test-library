@@ -15,10 +15,10 @@ source "$SCRIPT_PATH/_lib.sh"
 
 # Complex
 function installAspell() {
-  dnf -y install aspell-en ||\
-  yum -y install aspell-en ||\
-  apt -y install aspell-en ||\
-  zypper -n install aspell-en
+  sudo dnf -y install aspell-en ||\
+  sudo yum -y install aspell-en ||\
+  sudo apt -y install aspell-en ||\
+  sudo zypper -n install aspell-en
 
   RETURN=$?
   return $RETURN
