@@ -1,5 +1,16 @@
+<!--
+name: README.md
+description: This file contains important information for the repository.
+author: while-true-do.io
+contact: hello@while-true-do.io
+license: BSD-3-Clause
+-->
+<!-- github shields -->
 ![](https://img.shields.io/github/license/while-true-do/test-library.svg?style=flat)
 ![](https://img.shields.io/github/issues/while-true-do/test-library.svg?style=flat)
+![](https://img.shields.io/github/issues-pr/while-true-do/test-library.svg?style=flat)
+<!-- travis testing shields -->
+[![Build Status](https://travis-ci.org/while-true-do/test-library.svg?branch=master)](https://travis-ci.org/while-true-do/test-library)
 
 # test-library
 
