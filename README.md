@@ -14,7 +14,7 @@ license: BSD-3-Clause
 
 # test-library
 
-This repository contains some scripts and templates for testing.
+A repository containing some scripts and templates for testing.
 
 ## Motivation
 
